@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="AR" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  
+    
+    
+<!-- lçaima l3lwia -->
+<style>
+ body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+   z-index: 999; /* لضمان ظهوره فوق المحتوى */
+        }
+
+        .topnav {
+          position: fixed;
+overflow: hidden;
+border-radius:4px;
+   background-image: linear-gradient(132deg, #3c4a71 0%, #339a8a 100%);
+z-index: 999; /* لضمان ظهوره فوق المحتوى */
+top: 0;
+height: 48px;
+width: 100%;
+box-shadow: 5px 5px 7px #fff;
+z-index: 1;
+}  
+
+        .topnav a {
+            float: left;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+       
+ 
+   /* إضافة تأثير تغيير لون الخلفية عند تحديد الزر */
+        .topnav a:focus {
+            background-color: red; /* يمكنك تغيير اللون إلى أي لون تفضله */
+            color: #fff; /* تغيير لون النص إلى اللون المناسب للخلفية */
+            outline: none; /* إزالة تأثير الـ focus الافتراضي */
+        }
+
+        /* للتأكد من أن الزر يمكن الوصول إليه عند التحكم بجهاز التحكم عن بُعد */
+        .topnav a:hover {
+            background-color: yellow; /* يمكنك تغيير اللون إلى أي لون تفضله */
+            color: #000; /* تغيير لون النص إلى اللون المناسب للخلفية */
+        }
+
+        .topnav-centered a {
+
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        /* Responsive navigation menu (for mobile devices) */
+        @media screen and (max-width: 100%) {
+            .topnav a,
+            .topnav-right {
+                float: none;
+                display: block;
+            }
+
+            .topnav-centered a {
+                position: relative;
+                top: 0;
+                left: 0;
+                transform: none;
+                color: #ffff;
+            }
+        }
+</style>
+</head>
+<body>
+
+
+<!-- lçaima l3lwia and-->
+
+<style>    
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            font-family: "Roboto", Arial, Helvetica, sans-serif;
+         background:#339a8a;
+             background-position: center;
+        }
+
+           .button-container {
+           position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 8px;
+            
+        }
+
+        .button {
+           height: 200px;
+           width: 148px;
+           border-color: #000;
+            border-radius: 8px;
+            background: #3c4a71; 
+            margin: 7px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 18px;
+            color: #000;
+            font-weight: bold;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button img {
+              border-radius: 8px;
+            height: 150px;
+            width: 130px;
+            margin-bottom: 0px;
+            border:3px solid gold;
+        }
+
+        /* إضافة تأثير تغيير لون الخلفية عند تحديد الزر */
+.button:focus,
+.button:hover {
+ background: #ccc; /* لون	 خلفية الزر */
+         color: #000 ;
+          outline: none; /* إزالة تأثير الـ focus الافتراضي */
+             border: 4px solid #ff0066;
+            transform: scale(1.1);
+}
+
+
+
+         a{
+color: black;
+text-decoration:none;
+}
+#al{
+color: yellow;
+text-decoration:none;
+
+}
+/* .ازالة شريط التمرير اسفل المدونة*/
+        html {
+            overflow-x: hidden;
+        }
+
+        /* ازالة تغيير شكل السكرول بار Scroll.Bar */
+        ::-webkit-scrollbar {
+            width: 7px;
+            /**  تغير  لون القائمة **/
+        }
+
+      ::-webkit-scrollbar-thumb {
+                -webkit-shadow: inset 0 0 0 #000000;
+                -webkit-border-radius: 0;
+                background-image: -webkit-linear-gradient(top, #111 100%, #000 100%);border-radius: 12px;
+            }
+
+            ::-webkit-scrollbar-track {
+                -webkit-shadow: inset 0 0 0 #000000;
+                -webkit-border-radius: 100px;
+            }
+
+        
+              #page {
+            margin-top: 55px;
+            width: 100%;
+        }  
+        
+       .lkhat1 {
+position: relative;
+        text-align: center;
+        font-size: 15px;
+       color: #fff;
+         font-weight: bold  ;
+       margin-top: 2px;
+      background-color:  #006666;
+      background-position: center;
+      align-items: center;
+      justify-content: center;
+    width:98%;
+    height: 22px;
+    border-radius: 8px;
+   border:2px solid gold;
+      
+        } 
+        
+    </style>
+     <!-- Top navigation -->
+            <div class="topnav">
+                <!-- ISIM TATBI9 -->
+                <div class="topnav-centered">
+                 <a><h5>مسلسلات رمضان 2025</h5> </a>
+                </div>
+                <!-- ISIM TATBI9 -->
+
+                <!-- ZIR ROJO3 -->
+                <a href="go:afmv ">
+                    <i  class="fa fa-reply fa-beat"style="font-size: 20px;"></i>
+                </a>
+                <!-- ZIR ROJO3 -->
+
+ <i class="fa fa-film " style=" font-size: 20px; margin-top: 14px; color: #fff; "></i>
+                <!-- ZIR LBAHT-search -->
+                
+                
+                <div class="topnav-right">
+                    <a href="http://action_search/"><i class="fa fa-search fa-beat" style="font-size: 20px;"></i></a>
+                    <!-- ZIR LBAHT-search -->
+<i
+class=
+"fi fi-sr-eye"
+></i>
+
+
+                </div>
+
+            </div>              
+<head>
+<body>
+ <div id="page">
+<div align="center">
+<div id="button-list">
+    <div class="container">
+
+     <button class="button"onclick="window.open('https://rawcdn.githack.com/ahmadmk2023/ramadan-2024/b421df08dcdbab8a4793b35bf986ead46b7e993d/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%A7%D9%84%D8%B9%D8%AA%D8%A7%D9%88%D9%84%D8%A9.html')">
+     <img src="https://i.imgur.com/Q8tUnHl.jpeg" alt="thumb"><div class="lkhat1">مسلسل المداح ج 5</div></button>
+     
+     <button class="button"onclick="window.open('https://rawcdn.githack.com/ahmadmk2023/ramadan-2024/b421df08dcdbab8a4793b35bf986ead46b7e993d/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%A7%D9%84%D8%B9%D8%AA%D8%A7%D9%88%D9%84%D8%A9.html')">
+     <img src="https://media0070.elcinema.com/uploads/_315x420_2ea78bcc90c8f4d7f0cc95adb53b2efd3f80ba609a5a588dc70c3ea68bef98a0.jpg" alt="thumb"onerror="handleImageError(this)"><div class="lkhat1">مسلسل حكيم باشا</div></button>
+     
+          <button class="button"onclick="window.open('https://rawcdn.githack.com/ahmadmk2023/ramadan-2024/b421df08dcdbab8a4793b35bf986ead46b7e993d/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%A7%D9%84%D8%B9%D8%AA%D8%A7%D9%88%D9%84%D8%A9.html')">
+     <img src="https://i.imgur.com/bm2yojV.jpeg" alt="thumb"onerror="handleImageError(this)"><div class="lkhat1">مسلسل فهد البطل</div></button>
+     
+               <button class="button"onclick="window.open('https://rawcdn.githack.com/ahmadmk2023/ramadan-2024/b421df08dcdbab8a4793b35bf986ead46b7e993d/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%A7%D9%84%D8%B9%D8%AA%D8%A7%D9%88%D9%84%D8%A9.html')">
+     <img src="https://i.imgur.com/bm2yojV.jpeg" alt="thumb"onerror="handleImageError(this)"><div class="lkhat1">مسلسل فهد البطل</div></button>
+     
+     <button class="button"onclick="window.open('https://rawcdn.githack.com/ahmadmk2023/ramadan-2024/b421df08dcdbab8a4793b35bf986ead46b7e993d/%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%A7%D9%84%D8%B9%D8%AA%D8%A7%D9%88%D9%84%D8%A9.html')">
+     <img src="https://i.imgur.com/LEHCpvD.jpeg" alt="thumb"onerror="handleImageError(this)"><div class="lkhat1">2 مسلسل العتاولة</div></button>
+     
+     
+  <script>
+  
+// تعامل مع أخطاء الصور
+function setImageError(img) {
+  img.src = 'logo/1.png';
+  img.onerror = null; // منع التكرار
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+ // كودك هنا
+});
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "240px";
+  document.getElementById("main").style.marginLeft = "240px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+// ImageError
+// ImageError
+function handleImageError(img) {
+  img.src = 'https://raw.githubusercontent.com/aminemk640/Movies-free/refs/heads/main/00.png';
+}
+</script>
+ </div> 
+ </div>           
+</div>  
+  </div> 
+</body>
+</html>
+
