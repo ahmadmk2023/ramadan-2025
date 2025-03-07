@@ -563,7 +563,32 @@ box-shadow: 0 0 5px #000;
  </div ></button> 
       <!-- ✅  زر الفيلم -->              
          
+                     <button class="button">
+    <img src="https://media0070.elcinema.com/uploads/_315x420_2ea78bcc90c8f4d7f0cc95adb53b2efd3f80ba609a5a588dc70c3ea68bef98a0.jpg" alt="app tv"onerror="handleImageError(this)">
+     <div class="mov-name">
+        <div class="tv-name-inner" >episodes-7-الحلقة</div></div> 
+        <div class="link">سيرفرات المشاهدة</div> 
+           <div class="number-container">
+<div class="number" 
+     data-link="intent://dl.dropbox.com/scl/fi/m01va3t7c1ykxellpfz5v/hakim-bacha-e8.mkv?rlkey=1435lxool2qlszrmljok4dcqu&st=zftahh2p&dl=1#Intent;scheme=https;package=co.wuffy.player;end" 
+     onclick="playStream(this)" 
+     id="btn1" 
+     tabindex="1">FHD</div>
+
+<div class="number" 
+     data-link="intent://dl.dropbox.com/scl/fi/m01va3t7c1ykxellpfz5v/hakim-bacha-e8.mkv?rlkey=1435lxool2qlszrmljok4dcqu&st=zftahh2p&dl=1#Intent;scheme=https;package=co.wuffy.player;end" 
+     onclick="playStream(this)" 
+     id="btn2" 
+     tabindex="1">HD</div>
      
+<div class="number" 
+    data-link="intent://dl.dropbox.com/scl/fi/m01va3t7c1ykxellpfz5v/hakim-bacha-e8.mkv?rlkey=1435lxool2qlszrmljok4dcqu&st=zftahh2p&dl=1#Intent;scheme=https;package=co.wuffy.player;end" 
+     onclick="playStream(this)" 
+     id="btn3" 
+     tabindex="1">SD</div>
+ </div ></button> 
+      <!-- ✅  زر الفيلم -->              
+           
      
    
 
@@ -573,12 +598,7 @@ box-shadow: 0 0 5px #000;
 </div>
 </div>
  </main> 
-<script>
-function playStream(element) {
-    var url = element.getAttribute("data-link");
-    window.location.href = url;
-}
-</script>
+
 <script>
   const packageName = "co.wuffy.player";
   const playStream = (element) => {
