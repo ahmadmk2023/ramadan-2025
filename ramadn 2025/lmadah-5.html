@@ -618,6 +618,31 @@ box-shadow: 0 0 5px #000;
  </div ></button> 
       <!-- ✅  زر الفيلم -->
  
+                  <button class="button">
+    <img src="https://i.imgur.com/Q8tUnHl.jpeg" alt="app tv"onerror="handleImageError(this)">
+     <div class="mov-name">
+        <div class="tv-name-inner" >episodes-9-الحلقة</div></div> 
+        <div class="link">سيرفرات المشاهدة</div> 
+           <div class="number-container">
+<div class="number" 
+     data-link="intent://dl.dropbox.com/scl/fi/19l2i0sxjos65vlih3wdn/Cimawbas-Madah.S05E09.mp4?rlkey=c93cur8jmmw92pu8x9bldi9ch&st=6i4ju790&dl=1#Intent;scheme=https;package=co.wuffy.player;end" 
+     onclick="playStream(this)" 
+     id="btn1" 
+     tabindex="1">FHD</div>
+
+<div class="number" 
+     data-link="intent://dl.dropbox.com/scl/fi/19l2i0sxjos65vlih3wdn/Cimawbas-Madah.S05E09.mp4?rlkey=c93cur8jmmw92pu8x9bldi9ch&st=6i4ju790&dl=1#Intent;scheme=https;package=co.wuffy.player;end" 
+     onclick="playStream(this)" 
+     id="btn2" 
+     tabindex="1">HD</div>
+     
+<div class="number" 
+     data-link="intent://dl.dropbox.com/scl/fi/19l2i0sxjos65vlih3wdn/Cimawbas-Madah.S05E09.mp4?rlkey=c93cur8jmmw92pu8x9bldi9ch&st=6i4ju790&dl=1#Intent;scheme=https;package=co.wuffy.player;end" 
+     onclick="playStream(this)" 
+     id="btn3" 
+     tabindex="1">SD</div>
+ </div ></button> 
+      <!-- ✅  زر الفيلم -->
  
  
  
@@ -627,12 +652,7 @@ box-shadow: 0 0 5px #000;
 </div>
 </div>
  </main> 
-<script>
-function playStream(element) {
-    var url = element.getAttribute("data-link");
-    window.location.href = url;
-}
-</script>
+
 <script>
   const packageName = "co.wuffy.player";
   const playStream = (element) => {
